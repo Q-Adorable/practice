@@ -1,0 +1,7 @@
+product:
+  - id: 1
+    name: "苹果"
+  - id: 2
+    name: "笔记本电脑"
+  - id: 3
+    name: "电视机"

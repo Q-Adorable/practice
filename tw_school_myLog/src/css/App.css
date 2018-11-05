@@ -1,0 +1,56 @@
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  background-image: url("../media/logo-white.763050c9.png");
+  background-size: 100% 100%;
+  width: 120px;
+  height: 31px;
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+.margin-t-3 {
+  margin-top: 20px;
+}
+
+.ant-form-item-label {
+  float: right;
+}
+
+.practise-diary-operation-button-group {
+  text-align: right;
+}
+
+.page-content{
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+.page-content>.content{
+  padding: 24px 0;
+  background: #fff;
+}
+
+.text-position{
+  text-align: center;
+}
+
+.button-position{
+  float: right;
+}
+.header-bell{
+  margin-top: 5px;
+  text-align: right;
+}
+.bell-icon{
+  font-size: 22px;
+  color: white;
+}
+.content-router{
+  background: #fff;
+  padding: 0 24px;
+  min-height: 280; 
+}

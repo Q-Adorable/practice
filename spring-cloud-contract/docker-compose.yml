@@ -1,0 +1,20 @@
+version: "2"
+
+services:
+  nexus:
+    image: sonatype/nexus
+    container_name: nexus
+    ports:
+      - 8081:8081
+
+  mysql-contract-test:
+    image: mysql:5.7
+    container_name: mysql-contract-test
+    ports:
+      - 3311:3306
+    environment:
+      - LANG=C.UTF-8
+      - TERM=dumb
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_USER=root
+      - MYSQL_DATABASE=contract_start_test

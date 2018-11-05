@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: password
+    url:  jdbc:mysql://127.0.0.1:3306/contract_start_test?characterEncoding=UTF-8
+  jpa:
+    show-sql: true
+    database: mysql
+

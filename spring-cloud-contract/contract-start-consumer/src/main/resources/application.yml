@@ -1,0 +1,7 @@
+hlp:
+  product-server:
+    url: http://localhost:8090
+
+product-server:
+  ribbon:
+    listOfServers: localhost:8090

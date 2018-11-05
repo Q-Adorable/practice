@@ -1,0 +1,38 @@
+{
+  "name": "tw_school",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.8.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-markdown": "^3.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "reduct": "^3.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "superagent": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "sonarqube": "sonar-scanner"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-react": "^7.11.1",
+    "sonarqube-scanner": "^2.1.1"
+  },
+  "proxy": {
+    "/": {
+      "target": "http://localhost:8080",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }
+}

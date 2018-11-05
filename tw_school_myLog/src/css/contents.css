@@ -1,0 +1,35 @@
+
+.button-distance{
+    margin: 10px;
+}
+
+.bread-crumb{
+    margin: 16px 0;
+}
+
+.diaries-list-content{
+    background: #fff;
+    margin: 0;
+    min-height: 280; 
+}
+
+.card-item{
+    margin: 24px 0;
+}
+.menu-link{
+    height: 100%;
+}
+
+.markdown{
+    border-image: initial;
+    border-radius: 4px;
+    padding: 16px;
+    border: 1px rgb(233, 233, 233) solid;
+    background-color: rgb(251, 251, 251);
+}
+.diary-display-none{
+    display: none;
+}
+.diary-display-block{
+    display: block;
+}

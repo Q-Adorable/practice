@@ -1,0 +1,9 @@
+name: "should_return_all_products_yaml"
+request:
+  url: /products
+  method: GET
+response:
+  status: 200
+  bodyFromFile: response.json
+  headers:
+    Content-Type: application/json;charset=UTF-8
